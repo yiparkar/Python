@@ -6,7 +6,10 @@ import os
 # from library._04_template_outside_view import app
 # from library._05_basic_routing import app
 # from library._06_raising_custom_errors import app
-from library._07_request_info import app
+# from library._07_request_info import app
+# from library._09_simple_database import
+# from library._10_database_app_template_eng import app
+from library._11_sql_join import app
 
 if __name__ == "__main__":
     app.debug = True
