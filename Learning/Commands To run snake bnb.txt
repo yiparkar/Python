@@ -1,0 +1,9 @@
+md "/data/db" "/data/log"
+# run mongo engine
+"C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
+
+# create a virtual env
+python -m venv .evn --copies
+
+# to activate virtual env
+.evn/scripts/activate 
